@@ -5,20 +5,12 @@ class AppTheme {
 
   /// LIGHT THEME
   static final ThemeData lightTheme = ThemeData(
-    useMaterial3: true,
-    brightness: Brightness.light,
     scaffoldBackgroundColor: Colors.white,
-
-    colorScheme: const ColorScheme.light(
-      primary: igBlue,
-      onPrimary: Colors.black,
-      background: Colors.white,
-    ),
+    brightness: Brightness.light,
 
     elevatedButtonTheme: ElevatedButtonThemeData(
       style: ElevatedButton.styleFrom(
         backgroundColor: igBlue,
-        elevation: 0,
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(6),
         ),
@@ -53,20 +45,12 @@ class AppTheme {
 
   /// DARK THEME (OLED TRUE BLACK)
   static final ThemeData darkTheme = ThemeData(
-    useMaterial3: true,
-    brightness: Brightness.dark,
     scaffoldBackgroundColor: Colors.black, // 🔥 OLED true black
-
-    colorScheme: const ColorScheme.dark(
-      primary: igBlue,
-      onPrimary: Colors.white, // 👈 button text color
-      background: Colors.black, // OLED
-    ),
+    brightness: Brightness.dark,
 
     elevatedButtonTheme: ElevatedButtonThemeData(
       style: ElevatedButton.styleFrom(
         backgroundColor: igBlue,
-        elevation: 0,
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(6),
         ),
