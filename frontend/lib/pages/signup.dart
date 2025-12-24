@@ -27,7 +27,7 @@ class _SignupPageState extends State<SignupPage> {
             padding: const EdgeInsets.all(24),
             decoration: BoxDecoration(
               border: Border.all(
-                color: theme.dividerColor.withOpacity(0.6),
+                color: theme.dividerColor.withValues(alpha: 0.6),
               ),
             ),
             child: Form(
@@ -48,7 +48,7 @@ class _SignupPageState extends State<SignupPage> {
                     'Sign up to see matches you’ll love',
                     textAlign: TextAlign.center,
                     style: theme.textTheme.bodySmall?.copyWith(
-                      color: theme.textTheme.bodySmall?.color?.withOpacity(0.7),
+                      color: theme.textTheme.bodySmall?.color?.withValues(alpha: 0.7),
                     ),
                   ),
                   const SizedBox(height: 24),
@@ -96,7 +96,7 @@ class _SignupPageState extends State<SignupPage> {
                     textAlign: TextAlign.center,
                     style: theme.textTheme.bodySmall?.copyWith(
                       fontSize: 11,
-                      color: theme.textTheme.bodySmall?.color?.withOpacity(0.6),
+                      color: theme.textTheme.bodySmall?.color?.withValues(alpha: 0.6),
                     ),
                   ),
                 ],

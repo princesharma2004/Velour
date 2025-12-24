@@ -12,7 +12,7 @@ class AppTheme {
     colorScheme: const ColorScheme.light(
       primary: igBlue,
       onPrimary: Colors.black,
-      background: Colors.white,
+      surface: Colors.white,
     ),
 
     elevatedButtonTheme: ElevatedButtonThemeData(
@@ -60,7 +60,7 @@ class AppTheme {
     colorScheme: const ColorScheme.dark(
       primary: igBlue,
       onPrimary: Colors.white, // 👈 button text color
-      background: Colors.black, // OLED
+      surface: Colors.black, // OLED
     ),
 
     elevatedButtonTheme: ElevatedButtonThemeData(
