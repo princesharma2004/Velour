@@ -86,7 +86,7 @@ class _SignupPageState extends State<SignupPage> {
                         );
                       }
                     },
-                    child: const Text('Sign up'),
+                    child: Text('Sign Up', style: TextStyle(color: Colors.white),),
                   ),
 
                   const SizedBox(height: 16),
